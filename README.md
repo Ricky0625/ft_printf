@@ -2,16 +2,18 @@
 
 Recode printf. Learned what is and how to implement variadic functions.
 
+`man printf` or `man 3 printf` to learn more about printf and the flags.
+
 ## Supported flags & conversion type
 
 Flags:
 
-1. - (left align)
+1. \- (left align)
 2. 0 (zero padding)
 3. . (precision)
-4. # (alternative form, works with x & X only)
+4. \# (alternative form, works with x & X only)
 5. [space] (prepend space if value is positive, else prepend '-')
-6. + (prepend '+' if value is positive, else prepend '-')
+6. \+ (prepend '+' if value is positive, else prepend '-')
 
 Conversion type:
 
